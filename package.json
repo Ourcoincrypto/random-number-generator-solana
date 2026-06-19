@@ -1,0 +1,29 @@
+{
+  "name": "random-number-generator-solana",
+  "version": "1.0.0",
+  "description": "Next.js app with gated random number generation behind Solana payments",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "@solana/web3.js": "^1.98.0",
+    "@solana/spl-token": "^0.4.7",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.42",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@pump-fun/agent-payments-sdk": "3.0.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18"
+  }
+}
